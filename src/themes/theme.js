@@ -6,7 +6,7 @@ const breakpoints = {
     laptopL: "1440"
 };
 
-const lightTheme = {
+export const lightTheme = {
     breakpoints,
     colors: {
         mainBackground: "#FBFBFE",
@@ -20,7 +20,7 @@ const lightTheme = {
     }
 };
 
-const darkTheme = {
+export const darkTheme = {
     breakpoints,
     colors: {
         mainBackground: "#252525",
