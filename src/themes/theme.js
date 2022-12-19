@@ -11,6 +11,7 @@ export const lightTheme = {
     colors: {
         mainBackground: "#FBFBFE",
         sectionBackgorund: "#FFFFFF",
+        switchBackround: "#E5E5E5",
         border: "#D1D5DA4D",
         mainFont: "#252525",
         secondaryFont: "#6E7E91",
@@ -25,6 +26,7 @@ export const darkTheme = {
     colors: {
         mainBackground: "#252525",
         sectionBackgorund: "#363636B8",
+        switchBackround: "#6e6e6e",
         border: "#D1D5DA1A",
         mainFont: "#FFFFFF",
         secondaryFont: "#FFFFFF",
