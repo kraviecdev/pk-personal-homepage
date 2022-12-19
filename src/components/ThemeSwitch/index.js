@@ -1,14 +1,22 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { handleThemeSwitch, selectIsDarkModeOn } from "../../reducers/themeSlice";
 import { Icon, ThemeIconBody, ThemeInfo, ThemeSwitchBody, ThemeSwitchButton } from "./styled";
 
 const ThemeSwitch = () => {
+
+    const dispatch = useDispatch();
+    const isDarkModeOn = useSelector(selectIsDarkModeOn);
+
     return (
-        <ThemeSwitchButton>
+        <ThemeSwitchButton 
+            onClick={() => dispatch(handleThemeSwitch())}
+        >
             <ThemeInfo>
-                dark mode on
+                dark mode {isDarkModeOn ? `off` : `on`}
             </ThemeInfo>
             <ThemeSwitchBody>
-                <ThemeIconBody>
+                <ThemeIconBody darkMode={isDarkModeOn}>
                     <Icon />
                 </ThemeIconBody>
             </ThemeSwitchBody>
