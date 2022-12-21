@@ -10,8 +10,8 @@ export const lightTheme = {
     breakpoints,
     colors: {
         mainBackground: "#FBFBFE",
-        sectionBackgorund: "#FFFFFF",
-        switchBackround: "#E5E5E5",
+        sectionBackground: "#FFFFFF",
+        switchBackground: "#E5E5E5",
         border: "#D1D5DA4D",
         mainFont: "#252525",
         secondaryFont: "#6E7E91",
@@ -25,8 +25,8 @@ export const darkTheme = {
     breakpoints,
     colors: {
         mainBackground: "#252525",
-        sectionBackgorund: "#363636B8",
-        switchBackround: "#6e6e6e",
+        sectionBackground: "#363636B8",
+        switchBackground: "#686868",
         border: "#D1D5DA1A",
         mainFont: "#FFFFFF",
         secondaryFont: "#FFFFFF",
