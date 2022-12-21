@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { handleThemeSwitch, selectIsDarkModeOn } from "../../reducers/themeSlice";
+import { handleThemeSwitch, selectIsDarkModeOn } from "./themeSlice";
 import { Icon, ThemeIconBody, ThemeInfo, ThemeSwitchBody, ThemeSwitchButton } from "./styled";
 
 const ThemeSwitch = () => {
