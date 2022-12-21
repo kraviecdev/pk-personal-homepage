@@ -1,4 +1,4 @@
-import { ReactComponent as ThemeIcon } from "../../assets/themeIcon.svg";
+import { ReactComponent as ThemeIcon } from "./themeIcon.svg";
 import styled, { css } from "styled-components";
 
 export const ThemeSwitchButton = styled.div`
@@ -24,7 +24,7 @@ export const ThemeSwitchBody = styled.button`
     margin-left: 12px;
     border-radius: 30px;
     padding: 0;
-    background: ${({ theme }) => theme.colors.switchBackround};
+    background: ${({ theme }) => theme.colors.switchBackground};
     border: 1px solid ${({ theme }) => theme.colors.secondaryFont};
     box-shadow: 
     0px -2px 50px ${({ theme }) => theme.colors.shadow}, 
