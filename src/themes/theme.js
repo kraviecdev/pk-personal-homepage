@@ -16,7 +16,7 @@ export const lightTheme = {
         mainFont: "#252525",
         secondaryFont: "#6E7E91",
         buttonFont: "#FFFFFF",
-        button: "#2517EB",
+        button: "#0366D6",
         shadow: "#090A3308",
     }
 };
