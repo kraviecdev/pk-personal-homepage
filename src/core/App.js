@@ -6,6 +6,7 @@ import {darkTheme, lightTheme} from "../themes/theme";
 import ThemeSwitch from "../components/ThemeSwitch";
 import Main from "../components/Main";
 import Known from "../features/skills/known";
+import InProgress from "../features/skills/inProgress";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Main>
         <ThemeSwitch/>
         <Known />
+        <InProgress />
       </Main>
     </ThemeProvider>
   );
