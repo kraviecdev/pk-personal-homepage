@@ -6,6 +6,11 @@ export const ThemeSwitchButton = styled.div`
     align-items: center;
     position: absolute;
     right: 0;
+    cursor: pointer;
+
+    @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+        right: 16px;
+    }
 `;
 
 export const ThemeInfo = styled.p`
@@ -15,6 +20,10 @@ export const ThemeInfo = styled.p`
     font-weight: 700;
     margin: 0;
     color: ${({ theme }) => theme.colors.secondaryFont};
+
+    @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+        display: none;
+    }
 `;
 
 export const ThemeSwitchBody = styled.button`
@@ -29,6 +38,7 @@ export const ThemeSwitchBody = styled.button`
     box-shadow: 
     0px -2px 50px ${({ theme }) => theme.colors.shadow}, 
     0px 16px 58px ${({ theme }) => theme.colors.shadow};
+    cursor: pointer;
 `;
 
 export const ThemeIconBody = styled.span`
