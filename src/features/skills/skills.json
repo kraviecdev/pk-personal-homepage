@@ -1,0 +1,102 @@
+{
+  "inProgress": [
+    {
+      "id": 0,
+      "name": "AWS"
+    },
+    {
+      "id": 1,
+      "name": "Figma"
+    },
+    {
+      "id": 2,
+      "name": "Micro services"
+    },
+    {
+      "id": 3,
+      "name": "Node.js"
+    },
+    {
+      "id": 4,
+      "name": "React Context"
+    },
+    {
+      "id": 5,
+      "name": "SQL"
+    },
+    {
+      "id": 6,
+      "name": "TypeScript"
+    }
+  ],
+  "known": [
+    {
+      "id": 0,
+      "name": "Semantic HTML"
+    },
+    {
+      "id": 1,
+      "name": "Working with API (axios/fetch)"
+    },
+    {
+      "id": 2,
+      "name": "Git"
+    },
+    {
+      "id": 3,
+      "name": "Responsive WEB Design"
+    },
+    {
+      "id": 4,
+      "name": "JavaScript: ES6+"
+    },
+    {
+      "id": 5,
+      "name": "GitHub Pull Requests & Review"
+    },
+    {
+      "id": 6,
+      "name": "CSS BEM"
+    },
+    {
+      "id": 7,
+      "name": "React"
+    },
+    {
+      "id": 8,
+      "name": "Trello"
+    },
+    {
+      "id": 9,
+      "name": "CSS Grid"
+    },
+    {
+      "id": 9,
+      "name": "React Hooks"
+    },
+    {
+      "id": 15,
+      "name": "NPM"
+    },
+    {
+      "id": 4,
+      "name": "CSS Flex"
+    },
+    {
+      "id": 10,
+      "name": "React Router"
+    },
+    {
+      "id": 16,
+      "name": "Teamwork"
+    },
+    {
+      "id": 5,
+      "name": "Immutability"
+    },
+    {
+      "id": 11,
+      "name": "React-Redux"
+    }
+  ]
+}
