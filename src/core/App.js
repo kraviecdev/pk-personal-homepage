@@ -7,6 +7,7 @@ import ThemeSwitch from "../components/ThemeSwitch";
 import Main from "../components/Main";
 import Known from "../features/skills/known";
 import InProgress from "../features/skills/inProgress";
+import Header from "../features/header";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <GlobalStyle/>
       <Main>
         <ThemeSwitch/>
+        <Header />
         <Known />
         <InProgress />
       </Main>
