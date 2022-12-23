@@ -1,0 +1,6 @@
+{
+  "short_name": "Homepage",
+  "name": "Patryk Krawczyk personal homepage",
+  "start_url": ".",
+  "display": "standalone"
+}
