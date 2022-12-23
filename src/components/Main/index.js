@@ -6,6 +6,13 @@ const Main = styled.main`
   position: relative;
   gap: 72px;
   margin: 115px auto;
+
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    max-width: ${({theme}) => theme.breakpoints.mobileS}px;
+    gap: 50px;
+    padding: 12px;
+    margin: 32px 0;
+  }
 `;
 
 export default Main;
