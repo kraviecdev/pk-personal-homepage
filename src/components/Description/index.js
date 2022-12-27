@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 export const DescriptionParagraph = styled.p`
   color: ${({theme}) => theme.colors.secondaryFont};
@@ -6,6 +6,15 @@ export const DescriptionParagraph = styled.p`
   line-height: 28px;
   font-weight: 400;
   margin: 22px 0 32px;
+  
+  ${({projectDescription}) => projectDescription && css`
+    margin: 24px 0;
+  `}
+
+  ${({projectLink}) => projectLink && css`
+    min-width: 68px;
+    margin: 0;
+  `}
 
   @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
     font-size: 16px;
