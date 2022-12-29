@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const TileWrapper = styled.article`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(592px, 1fr));
+  gap: 20px;
+`;
+
 export const Tile = styled.article`
   max-width: 592px;
   padding: 56px;
