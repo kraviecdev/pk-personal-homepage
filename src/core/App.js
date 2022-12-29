@@ -8,6 +8,7 @@ import Main from "../components/Main";
 import Known from "../features/skills/known";
 import InProgress from "../features/skills/inProgress";
 import Header from "../features/header";
+import Projects from "../features/projects";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Header />
         <Known />
         <InProgress />
+        <Projects />
       </Main>
     </ThemeProvider>
   );
