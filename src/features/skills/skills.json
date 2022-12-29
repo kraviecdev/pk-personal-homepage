@@ -71,31 +71,31 @@
       "name": "CSS Grid"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "React Hooks"
     },
     {
-      "id": 15,
+      "id": 11,
       "name": "NPM"
     },
     {
-      "id": 4,
+      "id": 12,
       "name": "CSS Flex"
     },
     {
-      "id": 10,
+      "id": 13,
       "name": "React Router"
     },
     {
-      "id": 16,
+      "id": 14,
       "name": "Teamwork"
     },
     {
-      "id": 5,
+      "id": 15,
       "name": "Immutability"
     },
     {
-      "id": 11,
+      "id": 16,
       "name": "React-Redux"
     }
   ]
