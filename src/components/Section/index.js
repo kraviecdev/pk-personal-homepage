@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 export const Section = styled.section`
   width: 100%;
@@ -13,4 +13,11 @@ export const Section = styled.section`
   @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
     padding: 16px;
   }
+  
+  ${({portfolioSection}) => portfolioSection && css`
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    justify-items: center;
+  `}
 `;

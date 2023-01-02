@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 export const MainTitle = styled.h1`
   font-size: 38px;
@@ -26,4 +26,8 @@ export const SectionTitle = styled.h2`
     line-height: 22px;
     padding: 12px 0;
   }
+  ${({portfolio}) => portfolio && css`
+    text-align: center;
+    border: none;
+  `}
 `;
