@@ -9,6 +9,7 @@ import Known from "../features/skills/known";
 import InProgress from "../features/skills/inProgress";
 import Header from "../features/header";
 import Projects from "../features/projects";
+import Footer from "../features/footer";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Known />
         <InProgress />
         <Projects />
+        <Footer/>
       </Main>
     </ThemeProvider>
   );
