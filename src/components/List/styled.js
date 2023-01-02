@@ -20,8 +20,6 @@ export const ListItem = styled.li`
   color: ${({theme}) => theme.colors.secondaryFont};
   font-size: 18px;
   line-height: 26px;
-  letter-spacing: 0.05em;
-  font-weight: 400;
   width: fit-content;
 
   &:before {

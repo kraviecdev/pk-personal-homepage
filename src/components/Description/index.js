@@ -4,15 +4,21 @@ export const DescriptionParagraph = styled.p`
   color: ${({theme}) => theme.colors.secondaryFont};
   font-size: 20px;
   line-height: 28px;
-  font-weight: 400;
   margin: 22px 0 32px;
   
   ${({projectDescription}) => projectDescription && css`
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    overflow: auto;
     margin: 24px 0;
+    max-height: 130px;
   `}
 
   ${({projectLink}) => projectLink && css`
-    min-width: 68px;
+    font-size: 18px;
+    line-height: 26px;
+    //min-width: 68px;
     margin: 0;
   `}
 
@@ -28,5 +34,12 @@ export const AdditionalInfo = styled.span`
   color: ${({theme}) => theme.colors.secondaryFont};
   font-size: 12px;
   line-height: 16px;
-  font-weight: 400;
+  
+  ${({additionalPortfolio}) => additionalPortfolio && css`
+    font-size: 20px;
+    color: ${({theme}) => theme.colors.mainFont};
+    line-height: 28px;
+    text-transform: none;
+    margin-bottom: 24px;
+  `}
 `;
