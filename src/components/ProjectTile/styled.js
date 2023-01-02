@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const TileWrapper = styled.article`
   display: grid;
-  grid-template-columns: repeat(2, minmax(592px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(2, minmax(288px, 1fr));
+  gap: 32px;
 `;
 
 export const Tile = styled.article`
-  max-width: 592px;
+  display: grid;
+  grid-template-rows: max-content 178px 1fr;
   padding: 56px;
   background: ${({theme}) => theme.colors.sectionBackground};
   border: 6px solid ${({theme}) => theme.colors.border};
@@ -20,20 +21,18 @@ export const TileTitle = styled.h3`
   font-weight: 700;
   line-height: 28px;
   margin: 0;
+  text-transform: capitalize;
 `;
 
 export const TileLinkContainer = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 8px;
   align-items: center;
-
-  &:nth-child(odd) {
-    margin-bottom: 8px;
-  }
 `;
 
 export const TileLink = styled.a`
   color: ${({theme}) => theme.colors.button};
   font-size: 18px;
-  line-height: 26px;
   cursor: pointer;
 `;
