@@ -1,9 +1,11 @@
 import {SectionTitle} from "../../components/Title";
-import {ProjectsWrapper} from "./styled";
+import {Section} from "../../components/Section";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchProjects, selectProjects} from "./projectsSlice";
 import {useEffect} from "react";
 import ProjectTile from "../../components/ProjectTile";
+import {AdditionalInfo} from "../../components/Description";
+import {GitHubIcon} from "../../components/Icons";
 
 const Projects = () => {
 
@@ -16,13 +18,14 @@ const Projects = () => {
 
 
   return (
-    <ProjectsWrapper>
-      <SectionTitle>Portfolio</SectionTitle>
-      <p>My recent projects</p>
+    <Section portfolioSection>
+      <GitHubIcon sectionIcon/>
+      <SectionTitle portfolio>Portfolio</SectionTitle>
+      <AdditionalInfo additionalPortfolio> My recent projects</AdditionalInfo>
       <ProjectTile
         projects={projects}
       />
-    </ProjectsWrapper>
+    </Section>
   )
 }
 
