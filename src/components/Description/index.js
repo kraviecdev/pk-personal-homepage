@@ -18,8 +18,14 @@ export const DescriptionParagraph = styled.p`
   ${({projectLink}) => projectLink && css`
     font-size: 18px;
     line-height: 26px;
-    //min-width: 68px;
     margin: 0;
+  `}
+  
+  ${({footerDescription}) => footerDescription && css`
+    color: ${({theme}) => theme.colors.mainFont};
+    font-size: 18px;
+    line-height: 26px;
+    margin: 24px 0;
   `}
 
   @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
@@ -32,6 +38,7 @@ export const DescriptionParagraph = styled.p`
 export const AdditionalInfo = styled.span`
   text-transform: uppercase;
   color: ${({theme}) => theme.colors.secondaryFont};
+  font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   
