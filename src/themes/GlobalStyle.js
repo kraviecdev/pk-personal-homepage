@@ -16,6 +16,8 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Inter', sans-serif;
         background: ${({ theme }) => theme.colors.mainBackground};
         color: ${({ theme }) => theme.colors.mainFont};
+        font-weight: 400;
+        letter-spacing: 0.05em;
         overflow-wrap: anywhere;
     }
 `;
