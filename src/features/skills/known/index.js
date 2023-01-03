@@ -1,7 +1,8 @@
 import {Section} from "../../../components/Section";
 import {SectionTitle} from "../../../components/Title";
-import List from "../../../components/List";
+import List from "../../../components/SkillsList";
 import jsonData from "../skills.json";
+
 const Known = () => {
   const knownSkills = jsonData.known;
 

@@ -29,6 +29,6 @@ export const {
 const selectState = state => state.projects;
 
 export const selectProjectsStatus = state => selectState(state).status;
-export  const selectProjects = state => selectState(state).projects;
+export const selectProjects = state => selectState(state).projects;
 
 export default projectsSlice.reducer

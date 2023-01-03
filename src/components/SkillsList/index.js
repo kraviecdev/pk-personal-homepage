@@ -1,4 +1,4 @@
-import { ListItem, UnorderedList} from "./styled";
+import {ListItem, UnorderedList} from "./styled";
 
 const List = ({data}) => (
   <UnorderedList>

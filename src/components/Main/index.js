@@ -7,7 +7,7 @@ const Main = styled.main`
   gap: 72px;
   margin: 115px auto;
 
-  @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
     max-width: ${({theme}) => theme.breakpoints.mobileS}px;
     gap: 50px;
     padding: 12px;

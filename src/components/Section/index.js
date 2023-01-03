@@ -8,12 +8,12 @@ export const Section = styled.section`
   padding: 32px;
   border-radius: 4px;
   box-shadow: 0px -2px 50px ${({theme}) => theme.colors.shadow},
-              0px 16px 58px ${({theme}) => theme.colors.shadow};
+  0px 16px 58px ${({theme}) => theme.colors.shadow};
 
-  @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
     padding: 16px;
   }
-  
+
   ${({portfolioSection}) => portfolioSection && css`
     padding: 0;
     background: transparent;

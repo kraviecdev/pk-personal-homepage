@@ -20,10 +20,10 @@ function App() {
       <GlobalStyle/>
       <Main>
         <ThemeSwitch/>
-        <Header />
-        <Known />
-        <InProgress />
-        <Projects />
+        <Header/>
+        <Known/>
+        <InProgress/>
+        <Projects/>
         <Footer/>
       </Main>
     </ThemeProvider>

@@ -22,7 +22,7 @@ export const HeaderImg = styled.div`
   object-fit: fill;
   border-radius: 50%;
 
-  @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
     width: 130px;
     height: 130px;
   }

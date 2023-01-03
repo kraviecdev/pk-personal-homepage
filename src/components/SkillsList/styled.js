@@ -8,7 +8,7 @@ export const UnorderedList = styled.ul`
   padding: 0;
   list-style: none;
 
-  @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
     grid-template-columns: auto;
     margin: 12px 0 0 0;
   }
@@ -28,10 +28,10 @@ export const ListItem = styled.li`
     width: 26px;
   }
 
-  @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
     font-size: 14px;
     line-height: 16px;
-    
+
     &:before {
       width: 18px;
     }

@@ -33,11 +33,10 @@ export const ThemeSwitchBody = styled.button`
     margin-left: 12px;
     border-radius: 30px;
     padding: 0;
-    background: ${({ theme }) => theme.colors.switchBackground};
-    border: 1px solid ${({ theme }) => theme.colors.secondaryFont};
-    box-shadow: 
-    0px -2px 50px ${({ theme }) => theme.colors.shadow}, 
-    0px 16px 58px ${({ theme }) => theme.colors.shadow};
+    background: ${({theme}) => theme.colors.switchBackground};
+    border: 1px solid ${({theme}) => theme.colors.secondaryFont};
+    box-shadow: 0px -2px 50px ${({theme}) => theme.colors.shadow},
+    0px 16px 58px ${({theme}) => theme.colors.shadow};
     cursor: pointer;
 `;
 

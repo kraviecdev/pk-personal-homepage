@@ -5,8 +5,8 @@ export const MainTitle = styled.h1`
   font-weight: 900;
   line-height: 46px;
   margin: 12px 0;
-  
-  @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
     font-size: 22px;
     line-height: 26px;
     margin: 8px 0;
