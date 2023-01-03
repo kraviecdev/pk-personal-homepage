@@ -14,7 +14,14 @@ const Header = () => {
           JavaScript is my Language, React is how i speak.
           I am experienced with responsive frontend design.
           Fast learner, open to new opportunities.</DescriptionParagraph>
-        <HireMeButton>&#9993; Contact Me</HireMeButton>
+        <HireMeButton
+          onClick={() => window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: "smooth"
+          })}
+        >
+          &#9993; Contact Me
+        </HireMeButton>
       </ContentWrapper>
     </HeaderWrapper>
   );
