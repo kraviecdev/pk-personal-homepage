@@ -1,6 +1,6 @@
 import {FooterIconsWrapper, FooterMail, FooterWrapper} from "./styled";
 import {AdditionalInfo, DescriptionParagraph} from "../../components/Description";
-import {GitHubIcon, IconLink, LinkedInIcon} from "../../components/Icons";
+import {GitHubIcon, LinkedInIcon} from "../../components/Icons";
 
 const Footer = () => (
   <FooterWrapper>
@@ -10,12 +10,12 @@ const Footer = () => (
       If you hava any questions or want to make a website or app, feel free to contact me through one of the following
       way:</DescriptionParagraph>
     <FooterIconsWrapper>
-      <IconLink target="_blank" href="https://github.com/patrick36212">
+      <a target="_blank" href="https://github.com/patrick36212">
         <GitHubIcon/>
-      </IconLink>
-      <IconLink target="_blank" href="https://www.linkedin.com/in/patryk-krawczyk-js/">
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/patryk-krawczyk-js/">
         <LinkedInIcon/>
-      </IconLink>
+      </a>
     </FooterIconsWrapper>
   </FooterWrapper>
 );
