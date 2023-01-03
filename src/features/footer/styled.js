@@ -4,6 +4,10 @@ export const FooterWrapper = styled.footer`
   display: grid;
   grid-auto-rows: auto;
   max-width: 60%;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    max-width: 100%;
+  }
 `;
 
 export const FooterMail = styled.a`
@@ -17,6 +21,12 @@ export const FooterMail = styled.a`
 
   &:hover {
     color: ${({theme}) => theme.colors.button};
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 12px 0;
   }
 `;
 

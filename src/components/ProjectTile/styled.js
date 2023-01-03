@@ -4,6 +4,11 @@ export const TileWrapper = styled.article`
   display: grid;
   grid-template-columns: repeat(2, minmax(288px, 1fr));
   gap: 32px;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    grid-template-columns: auto;
+    gap: 16px;
+  }
 `;
 
 export const Tile = styled.article`
@@ -19,6 +24,11 @@ export const Tile = styled.article`
   &:hover {
     border: 6px solid ${({theme}) => theme.colors.borderOnHover};
   }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    padding: 24px;
+    grid-template-rows: repeat(2, max-content) 1fr;
+  }
 `;
 export const TileTitle = styled.h3`
   color: ${({theme}) => theme.colors.button};
@@ -27,6 +37,11 @@ export const TileTitle = styled.h3`
   line-height: 28px;
   margin: 0;
   text-transform: capitalize;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 `;
 
 export const TileLinkContainer = styled.div`
@@ -44,5 +59,10 @@ export const TileLink = styled.a`
 
   &:hover {
     filter: brightness(1.20);
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    font-size: 14px;
+    line-height: 16px;
   }
 `;

@@ -10,10 +10,10 @@ const Footer = () => (
       If you hava any questions or want to make a website or app, feel free to contact me through one of the following
       way:</DescriptionParagraph>
     <FooterIconsWrapper>
-      <a target="_blank" href="https://github.com/patrick36212">
+      <a target="_blank" rel="noreferrer" href="https://github.com/patrick36212">
         <GitHubIcon/>
       </a>
-      <a target="_blank" href="https://www.linkedin.com/in/patryk-krawczyk-js/">
+      <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patryk-krawczyk-js/">
         <LinkedInIcon/>
       </a>
     </FooterIconsWrapper>

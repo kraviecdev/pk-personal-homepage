@@ -5,6 +5,10 @@ import {ReactComponent as LinkedIn} from "./linkedin.svg";
 export const GitHubIcon = styled(GitHub)`
   fill: ${({theme}) => theme.colors.mainFont};
   transition: .3s ease-in-out;
+  
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    width: 32px;
+  }
 
   &:hover {
     fill: ${({theme}) => theme.colors.button};
@@ -18,6 +22,10 @@ export const GitHubIcon = styled(GitHub)`
 export const LinkedInIcon = styled(LinkedIn)`
   fill: ${({theme}) => theme.colors.mainFont};
   transition: .3s ease-in-out;
+  
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    width: 32px;
+  }
 
   &:hover {
     fill: ${({theme}) => theme.colors.button};

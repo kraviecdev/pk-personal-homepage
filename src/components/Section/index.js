@@ -19,5 +19,9 @@ export const Section = styled.section`
     background: transparent;
     box-shadow: none;
     justify-items: center;
+
+    @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+      padding: 0;
+    }
   `}
 `;
