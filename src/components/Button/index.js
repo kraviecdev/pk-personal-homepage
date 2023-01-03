@@ -11,4 +11,12 @@ export const HireMeButton = styled.button`
   max-width: max-content;
   border: 1px solid ${({theme}) => theme.colors.border};
   cursor: pointer;
+  transition: .3s ease-in-out;
+
+  &:hover, &:active {
+    box-shadow: 2px -2px 0px ${({theme}) => theme.colors.borderOnHover},
+    -2px 2px 0px ${({theme}) => theme.colors.borderOnHover},
+    2px 2px 0px ${({theme}) => theme.colors.borderOnHover},
+      -2px -2px 0px ${({theme}) => theme.colors.borderOnHover};
+  }
 `;

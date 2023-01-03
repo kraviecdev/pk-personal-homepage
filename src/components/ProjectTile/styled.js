@@ -14,6 +14,11 @@ export const Tile = styled.article`
   border: 6px solid ${({theme}) => theme.colors.border};
   box-shadow: 0px -2px 50px ${({theme}) => theme.colors.shadow},
   0px 16px 58px ${({theme}) => theme.colors.shadow};
+  transition: .3s ease-in;
+
+  &:hover {
+    border: 6px solid ${({theme}) => theme.colors.borderOnHover};
+  }
 `;
 export const TileTitle = styled.h3`
   color: ${({theme}) => theme.colors.button};
@@ -35,4 +40,9 @@ export const TileLink = styled.a`
   color: ${({theme}) => theme.colors.button};
   font-size: 18px;
   cursor: pointer;
+  transition: .3s ease-in;
+
+  &:hover {
+    filter: brightness(1.20);
+  }
 `;

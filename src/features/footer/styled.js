@@ -13,6 +13,11 @@ export const FooterMail = styled.a`
   color: ${({theme}) => theme.colors.mainFont};
   line-height: 38px;
   text-decoration: none;
+  transition: .3s ease-in-out;
+
+  &:hover {
+    color: ${({theme}) => theme.colors.button};
+  }
 `;
 
 export const FooterIconsWrapper = styled.div`
