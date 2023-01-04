@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HireMeButton = styled.button`
+export const MainButton = styled.button`
   padding: 12px 16px;
   background: ${({theme}) => theme.colors.button};
   color: ${({theme}) => theme.colors.buttonFont};
