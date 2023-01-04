@@ -5,14 +5,18 @@ export const ThemeSwitchButton = styled.div`
     display: flex;
     align-items: center;
     position: absolute;
+    top: 0;
     right: 0;
     cursor: pointer;
+
+    @media(max-width: ${({theme}) => theme.breakpoints.laptop}px) {
+        right: 12px;
+    }
 
     @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
         right: 16px;
     }
 `;
-
 export const ThemeInfo = styled.p`
     text-transform: uppercase;
     font-size: 12px;
