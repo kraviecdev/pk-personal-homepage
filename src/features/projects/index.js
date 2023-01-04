@@ -1,11 +1,9 @@
-import {SectionTitle} from "../../components/Title";
-import {Section} from "../../components/Section";
+import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchProjects, selectProjects} from "./projectsSlice";
-import {useEffect} from "react";
-import ProjectTile from "../../components/ProjectTile";
-import {AdditionalInfo} from "../../components/Description";
+import {Section, SectionSubtitle, SectionTitle} from "../../components/Section";
 import {GitHubIcon} from "../../components/Icons";
+import Repos from "./Repos";
 
 const Projects = () => {
 
@@ -21,8 +19,8 @@ const Projects = () => {
     <Section portfolioSection>
       <GitHubIcon sectionIcon/>
       <SectionTitle portfolio>Portfolio</SectionTitle>
-      <AdditionalInfo additionalPortfolio> My recent projects</AdditionalInfo>
-      <ProjectTile
+      <SectionSubtitle> My recent projects</SectionSubtitle>
+      <Repos
         projects={projects}
       />
     </Section>
