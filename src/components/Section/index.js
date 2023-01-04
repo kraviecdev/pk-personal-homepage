@@ -25,3 +25,36 @@ export const Section = styled.section`
     }
   `}
 `;
+
+export const SectionTitle = styled.h2`
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid ${({theme}) => theme.colors.border};
+  padding: 15px 0;
+  
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px 0;
+  }
+  ${({portfolio}) => portfolio && css`
+    text-align: center;
+    border: none;
+  `}
+`;
+
+export const SectionSubtitle = styled.p`
+  font-size: 20px;
+  color: ${({theme}) => theme.colors.mainFont};
+  line-height: 28px;
+  text-transform: none;
+  margin-bottom: 24px;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+`;
