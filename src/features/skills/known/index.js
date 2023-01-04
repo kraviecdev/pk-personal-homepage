@@ -1,7 +1,6 @@
-import {Section} from "../../../components/Section";
-import {SectionTitle} from "../../../components/Title";
-import List from "../../../components/SkillsList";
 import jsonData from "../skills.json";
+import {Section, SectionTitle} from "../../../components/Section";
+import SkillsList from "../SkillsList";
 
 const Known = () => {
   const knownSkills = jsonData.known;
@@ -9,7 +8,7 @@ const Known = () => {
   return (
     <Section>
       <SectionTitle>My skillset includes &#128640;</SectionTitle>
-      <List
+      <SkillsList
         data={knownSkills}
       />
     </Section>

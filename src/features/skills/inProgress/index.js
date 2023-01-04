@@ -1,7 +1,6 @@
-import {Section} from "../../../components/Section";
-import {SectionTitle} from "../../../components/Title";
-import List from "../../../components/SkillsList";
 import jsonData from "../skills.json";
+import {Section, SectionTitle} from "../../../components/Section";
+import SkillsList from "../SkillsList";
 
 const inProgress = () => {
   const skillsInProgress = jsonData.inProgress;
@@ -9,7 +8,7 @@ const inProgress = () => {
   return (
     <Section>
       <SectionTitle>What I want to learn next &#127891;</SectionTitle>
-      <List
+      <SkillsList
         data={skillsInProgress}
       />
     </Section>
