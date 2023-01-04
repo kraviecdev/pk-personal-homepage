@@ -1,26 +1,25 @@
-import {Tile, TileLink, TileLinkContainer, TileTitle, TileWrapper} from "./styled";
-import {DescriptionParagraph} from "../Description";
+import {Tile, TileDescription, TileLink, TileLinkContainer, TileTitle, TileWrapper} from "./styled";
 
-const ProjectTile = ({projects}) =>
+const Repos = ({projects}) =>
   (
     <TileWrapper>
       {projects.map(project => (
         project.homepage &&
         <Tile key={project.id}>
           <TileTitle>{project.name.replaceAll("-", " ")}</TileTitle>
-          <DescriptionParagraph projectDescription>
+          <TileDescription>
             {project.description}
-          </DescriptionParagraph>
+          </TileDescription>
           <TileLinkContainer>
-            <DescriptionParagraph projectLink>
+            <TileDescription projectLink>
               Demo:
-            </DescriptionParagraph>
+            </TileDescription>
             <TileLink target="_blank" href={project.homepage}>
               {project.homepage}
             </TileLink>
-            <DescriptionParagraph projectLink>
+            <TileDescription projectLink>
               Code:
-            </DescriptionParagraph>
+            </TileDescription>
             <TileLink target="_blank" href={project.html_url}>
               {project.html_url}
             </TileLink>
@@ -30,4 +29,4 @@ const ProjectTile = ({projects}) =>
     </TileWrapper>
   );
 
-export default ProjectTile;
+export default Repos;
