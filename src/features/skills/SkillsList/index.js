@@ -1,6 +1,6 @@
 import {ListItem, UnorderedList} from "./styled";
 
-const List = ({data}) => (
+const SkillsList = ({data}) => (
   <UnorderedList>
     {data.map(item => (
       <ListItem key={item.id}>
@@ -10,4 +10,4 @@ const List = ({data}) => (
   </UnorderedList>
 );
 
-export default List;
+export default SkillsList;
