@@ -19,4 +19,9 @@ export const MainButton = styled.button`
     2px 2px 0px ${({theme}) => theme.colors.borderOnHover},
       -2px -2px 0px ${({theme}) => theme.colors.borderOnHover};
   }
+  
+  @media(max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
 `;
