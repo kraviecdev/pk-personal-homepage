@@ -11,13 +11,13 @@ const Repos = ({projects}) =>
             {project.description}
           </TileDescription>
           <TileLinkContainer>
-            <TileDescription projectLink>
+            <TileDescription>
               Demo:
             </TileDescription>
             <TileLink target="_blank" href={project.homepage}>
               {project.homepage}
             </TileLink>
-            <TileDescription projectLink>
+            <TileDescription>
               Code:
             </TileDescription>
             <TileLink target="_blank" href={project.html_url}>
