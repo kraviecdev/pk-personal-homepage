@@ -7,14 +7,8 @@ export const HeaderWrapper = styled.header`
   align-items: center;
   gap: 66px;
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
-    grid-template-columns: auto;
-    gap: 12px;
-  }
-
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
-    grid-template-columns: auto;
-    gap: 18px;
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
+    gap: 28px;
   }
 
   @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
@@ -29,7 +23,13 @@ export const HeaderTitle = styled.h1`
   line-height: 46px;
   margin: 12px 0;
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
+    font-size: 32px;
+    line-height: 38px;
+    margin: 8px 0;
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
     font-size: 22px;
     line-height: 26px;
     margin: 8px 0;
@@ -46,7 +46,12 @@ export const HeaderImg = styled.div`
   object-fit: fill;
   border-radius: 50%;
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
+    width: 260px;
+    height: 260px;
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
     width: 130px;
     height: 130px;
   }
