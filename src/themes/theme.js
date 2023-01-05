@@ -1,9 +1,7 @@
 const breakpoints = {
-  mobileS: "320",
-  mobileL: "475",
+  mobileL: "542",
   tablet: "768",
   laptop: "1024",
-  laptopL: "1440"
 };
 
 export const lightTheme = {
