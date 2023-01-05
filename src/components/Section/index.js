@@ -10,7 +10,11 @@ export const Section = styled.section`
   box-shadow: 0px -2px 50px ${({theme}) => theme.colors.shadow},
   0px 16px 58px ${({theme}) => theme.colors.shadow};
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
+    padding: 22px;
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
     padding: 16px;
   }
 
@@ -20,7 +24,7 @@ export const Section = styled.section`
     box-shadow: none;
     justify-items: center;
 
-    @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
       padding: 0;
     }
   `}
@@ -33,16 +37,32 @@ export const SectionTitle = styled.h2`
   width: 100%;
   margin: 0;
   border-bottom: 1px solid ${({theme}) => theme.colors.border};
-  padding: 15px 0;
+  padding: 0 0 16px 0;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 0 14px 0;
+  }
   
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
     font-size: 18px;
     line-height: 22px;
-    padding: 12px 0;
+    padding: 0 0 12px 0;
   }
+  
   ${({portfolio}) => portfolio && css`
+    padding: 16px 0;
     text-align: center;
     border: none;
+
+    @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
+      padding: 14px 0;
+    }
+
+    @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
+      padding: 12px 0;
+    }
   `}
 `;
 
@@ -51,9 +71,9 @@ export const SectionSubtitle = styled.p`
   color: ${({theme}) => theme.colors.mainFont};
   line-height: 28px;
   text-transform: none;
-  margin-bottom: 24px;
+  margin: 0 0 24px 0;
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
     font-size: 16px;
     line-height: 24px;
   }
