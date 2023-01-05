@@ -8,8 +8,12 @@ export const UnorderedList = styled.ul`
   padding: 0;
   list-style: none;
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
-    grid-template-columns: auto;
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
+    margin: 22px 0 0 0;
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
+    grid-template-columns: 1fr;
     margin: 12px 0 0 0;
   }
 `;
@@ -28,7 +32,16 @@ export const ListItem = styled.li`
     width: 26px;
   }
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) { 
+    font-size: 16px;
+    line-height: 20px;
+
+    &:before {
+      width: 22px;
+    }
+  }
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
     font-size: 14px;
     line-height: 16px;
 
