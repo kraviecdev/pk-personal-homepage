@@ -8,14 +8,6 @@ export const ThemeSwitchButton = styled.div`
     top: 0;
     right: 0;
     cursor: pointer;
-
-    @media(max-width: ${({theme}) => theme.breakpoints.laptop}px) {
-        right: 12px;
-    }
-
-    @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
-        right: 16px;
-    }
 `;
 export const ThemeInfo = styled.p`
     text-transform: uppercase;
@@ -25,7 +17,7 @@ export const ThemeInfo = styled.p`
     margin: 0;
     color: ${({ theme }) => theme.colors.secondaryFont};
 
-    @media(max-width: ${({theme}) => theme.breakpoints.mobileS}px) {
+    @media(max-width: ${({theme}) => theme.breakpoints.tablet}px) {
         display: none;
     }
 `;
