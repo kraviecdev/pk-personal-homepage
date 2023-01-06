@@ -5,6 +5,7 @@ const Main = styled.main`
   max-width: 1200px;
   gap: 72px;
   margin: 115px auto;
+  padding: 12px;
 
   @media (max-width: ${({theme}) => theme.breakpoints.laptop}px) {
     gap: 60px;
