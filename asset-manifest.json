@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.js": "/pk-personal-homepage/static/js/main.1961b990.js",
+    "main.js": "/pk-personal-homepage/static/js/main.dff61677.js",
     "static/js/787.f9be5609.chunk.js": "/pk-personal-homepage/static/js/787.f9be5609.chunk.js",
     "static/media/pkrawczyk.jpg": "/pk-personal-homepage/static/media/pkrawczyk.0f0ee26394d7d7825aaa.jpg",
     "static/media/github.svg": "/pk-personal-homepage/static/media/github.23a228fd9dd4af1b28dc21d29d52672a.svg",
     "static/media/themeIcon.svg": "/pk-personal-homepage/static/media/themeIcon.990f71f36bacb40b76c675f156b85877.svg",
+    "static/media/error.svg": "/pk-personal-homepage/static/media/error.bc502e0f2d71824e1fc693459b8b1c66.svg",
     "static/media/linkedin.svg": "/pk-personal-homepage/static/media/linkedin.b982d3d87c0582f4c1a8c3c34686d01f.svg",
     "index.html": "/pk-personal-homepage/index.html",
-    "main.1961b990.js.map": "/pk-personal-homepage/static/js/main.1961b990.js.map",
+    "main.dff61677.js.map": "/pk-personal-homepage/static/js/main.dff61677.js.map",
     "787.f9be5609.chunk.js.map": "/pk-personal-homepage/static/js/787.f9be5609.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.1961b990.js"
+    "static/js/main.dff61677.js"
   ]
 }
