@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import {ReactComponent as Error} from "./error.svg";
 
-export const ErrorWrapper = styled.div`
+export const InfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,19 +10,8 @@ export const ErrorWrapper = styled.div`
     margin: 32px 0;
   };
 `;
-export const ErrorIcon = styled(Error)`
-  fill: ${({theme}) => theme.colors.mainFont};
-  
-  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
-    width: 38px;
-  };
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
-    width: 32px;
-  };
-`;
-
-export const ErrorInfo = styled.h3`
+export const InfoTitle = styled.h3`
   margin: 22px 0 0 0;
   font-size: 24px;
   line-height: 28px;
@@ -40,7 +28,7 @@ export const ErrorInfo = styled.h3`
   };
 `;
 
-export const ErrorAdditionalInfo = styled.p`
+export const InfoParagraph = styled.p`
   margin: 32px 0;
   font-size: 20px;
   line-height: 28px;
