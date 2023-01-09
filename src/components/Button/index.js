@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const MainButton = styled.button`
+const Button = styled.button`
   padding: 12px 16px;
   background: ${({theme}) => theme.colors.button};
   color: ${({theme}) => theme.colors.buttonFont};
@@ -25,3 +25,5 @@ export const MainButton = styled.button`
     line-height: 22px;
   }
 `;
+
+export default Button;
