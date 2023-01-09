@@ -4,16 +4,14 @@ import {handleThemeSwitch, selectIsDarkModeOn} from "./themeSlice";
 import {Icon, ThemeIconBody, ThemeInfo, ThemeSwitchBody, ThemeSwitchButton} from "./styled";
 
 const ThemeSwitch = () => {
-
   const dispatch = useDispatch();
   const isDarkModeOn = useSelector(selectIsDarkModeOn);
-
   return (
     <ThemeSwitchButton
       onClick={() => dispatch(handleThemeSwitch())}
     >
       <ThemeInfo>
-        dark mode {isDarkModeOn ? `off` : `on`}
+        dark mode {isDarkModeOn ? `on` : `off`}
       </ThemeInfo>
       <ThemeSwitchBody>
         <ThemeIconBody darkMode={isDarkModeOn}>
