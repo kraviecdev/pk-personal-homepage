@@ -14,9 +14,7 @@ export const Loader = styled.span`
   height: 160px;
   border-width: 12px;
   border-style: solid;
-  border-color: ${({theme}) => theme.colors.button} 
-  ${({theme}) => theme.colors.sectionBackground}
-  ${({theme}) => theme.colors.sectionBackground};
+  border-color: ${({theme}) => theme.colors.button} ${({theme}) => theme.colors.sectionBackground} ${({theme}) => theme.colors.sectionBackground};
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;

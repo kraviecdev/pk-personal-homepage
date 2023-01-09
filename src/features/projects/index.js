@@ -24,7 +24,7 @@ const Projects = () => {
       <GitHubIcon sectionIcon/>
       <SectionTitle portfolio>Portfolio</SectionTitle>
       <SectionSubtitle> My recent projects</SectionSubtitle>
-      <Status />
+      <Status/>
     </Section>
   )
 }

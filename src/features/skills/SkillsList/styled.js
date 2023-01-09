@@ -32,7 +32,7 @@ export const ListItem = styled.li`
     width: 26px;
   }
 
-  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) { 
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
     font-size: 16px;
     line-height: 20px;
 

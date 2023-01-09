@@ -9,7 +9,7 @@ export const GitHubIcon = styled(GitHub)`
   @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
     width: 38px;
   }
-  
+
   @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
     width: 32px;
   }
@@ -30,7 +30,7 @@ export const LinkedInIcon = styled(LinkedIn)`
   @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
     width: 38px;
   }
-  
+
   @media (max-width: ${({theme}) => theme.breakpoints.mobileL}px) {
     width: 32px;
   }
