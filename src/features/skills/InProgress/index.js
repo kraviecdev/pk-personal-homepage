@@ -2,17 +2,16 @@ import jsonData from "../skills.json";
 import {Section, SectionTitle} from "../../../components/Section";
 import SkillsList from "../SkillsList";
 
-const Known = () => {
-  const knownSkills = jsonData.known;
-
+const inProgress = () => {
+  const skillsInProgress = jsonData.inProgress;
   return (
     <Section>
-      <SectionTitle>My skillset includes &#128640;</SectionTitle>
+      <SectionTitle>What I want to learn next &#127891;</SectionTitle>
       <SkillsList
-        data={knownSkills}
+        data={skillsInProgress}
       />
     </Section>
   )
 };
 
-export default Known;
+export default inProgress;
