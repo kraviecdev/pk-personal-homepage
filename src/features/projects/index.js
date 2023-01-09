@@ -8,26 +8,23 @@ import Error from "./Info/Error";
 import Repos from "./Repos";
 
 const Projects = () => {
-
   const dispatch = useDispatch();
   const projects = useSelector(selectProjects);
   const status = useSelector(selectProjectsStatus);
-
+  const Status = () => ({
+    loading: <Loading/>,
+    error: <Error/>,
+    success: <Repos projects={projects}/>
+  }[status]);
   useEffect(() => {
     dispatch(fetchProjects());
   }, [dispatch])
-
-
   return (
     <Section portfolioSection>
       <GitHubIcon sectionIcon/>
       <SectionTitle portfolio>Portfolio</SectionTitle>
       <SectionSubtitle> My recent projects</SectionSubtitle>
-      {status === "loading" && <Loading/>}
-      {status === "error" && <Error/>}
-      {status === "success" && <Repos
-        projects={projects}
-      />}
+      <Status />
     </Section>
   )
 }
