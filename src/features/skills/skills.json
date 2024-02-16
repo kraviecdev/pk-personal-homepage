@@ -1,102 +1,101 @@
 {
   "inProgress": [
     {
-      "id": 0,
-      "name": "AWS"
-    },
-    {
       "id": 1,
       "name": "Figma"
-    },
-    {
+    }, {
       "id": 2,
-      "name": "Micro services"
-    },
-    {
+      "name": "Docker"
+    }, {
       "id": 3,
-      "name": "Node.js"
-    },
-    {
+      "name": "Kubernetes"
+    }, {
       "id": 4,
-      "name": "React Context"
-    },
-    {
+      "name": "SEO"
+    }, {
       "id": 5,
-      "name": "SQL"
-    },
-    {
+      "name": "AWS"
+    }, {
       "id": 6,
-      "name": "TypeScript"
+      "name": "Microservices"
+    }, {
+      "id": 7,
+      "name": "Code Review"
+    }, {
+      "id": 8,
+      "name": "Next.js"
+    }, {
+      "id": 9,
+      "name": "Unit tests"
     }
   ],
   "known": [
     {
-      "id": 0,
-      "name": "Semantic HTML"
-    },
-    {
       "id": 1,
-      "name": "Working with API (axios/fetch)"
-    },
-    {
+      "name": "Semantic HTML"
+    }, {
       "id": 2,
-      "name": "Git"
-    },
-    {
-      "id": 3,
       "name": "Responsive WEB Design"
-    },
-    {
-      "id": 4,
-      "name": "JavaScript: ES6+"
-    },
-    {
-      "id": 5,
-      "name": "GitHub Pull Requests & Review"
-    },
-    {
-      "id": 6,
+    }, {
+      "id": 3,
       "name": "CSS BEM"
-    },
-    {
-      "id": 7,
-      "name": "React"
-    },
-    {
-      "id": 8,
-      "name": "Trello"
-    },
-    {
-      "id": 9,
+    }, {
+      "id": 4,
       "name": "CSS Grid"
-    },
-    {
+    }, {
+      "id": 5,
+      "name": "CSS Flexbox"
+    }, {
+      "id": 6,
+      "name": "Immutability"
+    }, {
+      "id": 7,
+      "name": "Working with API (axios/fetch)"
+    }, {
+      "id": 8,
+      "name": "JavaScript: ES6+"
+    }, {
+      "id": 9,
+      "name": "React"
+    }, {
       "id": 10,
       "name": "React Hooks"
-    },
-    {
+    }, {
       "id": 11,
-      "name": "NPM"
-    },
-    {
-      "id": 12,
-      "name": "CSS Flex"
-    },
-    {
-      "id": 13,
       "name": "React Router"
-    },
-    {
-      "id": 14,
-      "name": "Teamwork"
-    },
-    {
-      "id": 15,
-      "name": "Immutability"
-    },
-    {
-      "id": 16,
+    }, {
+      "id": 12,
       "name": "React-Redux"
+    }, {
+      "id": 13,
+      "name": "Redux-Saga"
+    }, {
+      "id": 14,
+      "name": "Node.js"
+    }, {
+      "id": 15,
+      "name": "Express.js"
+    }, {
+      "id": 16,
+      "name": "MongoDB"
+    }, {
+      "id": 17,
+      "name": "Mongoose"
+    }, {
+      "id": 18,
+      "name": "REST API"
+    }, {
+      "id": 19,
+      "name": "Git"
+    }, {
+      "id": 20,
+      "name": "Github (PR & Review)"
+    }, {
+      "id": 21,
+      "name": "NPM"
+    }, {
+      "id": 22,
+      "name": "Vite"
     }
   ]
 }
