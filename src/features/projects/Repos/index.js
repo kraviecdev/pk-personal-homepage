@@ -6,7 +6,7 @@ const Repos = ({projects}) =>
       {projects.map(project => (
         project.homepage &&
         <Tile key={project.id}>
-          <TileTitle>{project.name.replaceAll("-", " ")}</TileTitle>
+          <TileTitle>{project.name}</TileTitle>
           <TileDescription>
             {project.description}
           </TileDescription>
