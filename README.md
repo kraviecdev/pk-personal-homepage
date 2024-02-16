@@ -10,10 +10,10 @@ Personal Homepage is an application based on the graphic design in Figma. It is 
 5. [Used technologies and concepts](#used-technologies-and-concepts)
 6. [Available Scripts](#available-scripts)
 ## Demo
-[Personal Homepage Demo](https://patrick36212.github.io/pk-personal-homepage/)
+[Personal Homepage Demo](https://kraviecdev.github.io/pk-personal-homepage/)
 
 ## Preview
-![Personal Homepage Preview](./personalhomepage.gif)
+![Personal Homepage Preview](pk-personal-homepage.png)
 ## General information
 
 In this project you can easily check my current Skills and Plans as well as already done Projects & contact. Projects will be 
@@ -23,7 +23,7 @@ In this project you can easily check my current Skills and Plans as well as alre
 The Personal Homepage application is fully responsive for all popular devices.
 
 ## Author
-- [Patryk Krawczyk](https://github.com/patrick36212)
+- [Patryk Krawczyk](https://github.com/kraviecdev)
 
 ## Used technologies and concepts
 - [x] Responsive Web Design - for all popular devices
