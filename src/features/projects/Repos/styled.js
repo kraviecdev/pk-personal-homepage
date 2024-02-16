@@ -55,7 +55,6 @@ export const TileTitle = styled.h3`
   font-weight: 700;
   line-height: 28px;
   margin: 0;
-  text-transform: capitalize;
 
   @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
     font-size: 18px;
