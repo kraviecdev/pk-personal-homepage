@@ -5,13 +5,15 @@ import createSagaMiddleware from "@redux-saga/core";
 import rootSaga from "./rootSaga";
 
 const sagaMiddleware = createSagaMiddleware();
+const middleware = [sagaMiddleware]
 
 const store = configureStore({
   reducer: {
     theme: themeReducer,
     projects: projectReducer,
   },
-  middleware: [sagaMiddleware],
+  middleware: (getDefaultMiddleware) =>
+      getDefaultMiddleware().concat(middleware),
 });
 
 sagaMiddleware.run(rootSaga);
