@@ -1,6 +1,6 @@
 {
-  "short_name": "Homepage",
-  "name": "Patryk Krawczyk personal homepage",
+  "short_name": "kraviecdev",
+  "name": "kraviecdev - Patryk Krawczyk personal homepage",
   "start_url": ".",
   "display": "standalone"
 }
